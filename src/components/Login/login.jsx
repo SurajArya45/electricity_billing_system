@@ -66,7 +66,7 @@ function Login() {
 
                     <h3 >Login</h3>
 
-                    <img src="https://i.pinimg.com/originals/ff/da/81/ffda81a5c2d5ff9ec4ff367e19b4dcff.png" alt="" />
+                    {/* <img src="https://i.pinimg.com/originals/ff/da/81/ffda81a5c2d5ff9ec4ff367e19b4dcff.png" alt="" /> */}
 
                 </div>
 
@@ -103,7 +103,7 @@ function Login() {
 
                     </div>
                             <div id="btnGroup" >
-                    <button className='btn btn-primary' type="submit">Login</button>
+                    <button className='btn btn-success' type="submit">Login</button>
                     <button className='btn btn-danger'>Forgot Password</button>
                     <button className='btn btn-warning'>Back</button>
                     </div>

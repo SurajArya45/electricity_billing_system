@@ -16,6 +16,7 @@ const Navbar = () => {
         </ul>
         <div className="auth-links">
           <span className="nav-item"><Link to ="Register" className='link'>Logout</Link></span>
+          <span className="nav-item"><Link to ="Login" className='link'>Login</Link></span>
           <span className="nav-item">About Us</span>
         </div>
       </div>
