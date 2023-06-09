@@ -5,6 +5,7 @@ import "../components/aboutus.css"
 function AboutUs(){
     return (
        <div >
+        
         <div className="container">
            <h2> ABOUT US</h2>
            <div className="about-us">
