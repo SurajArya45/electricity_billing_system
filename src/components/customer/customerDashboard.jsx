@@ -6,7 +6,7 @@ const CustomerDashboard = () => {
     return (
         <div className="container">
             <h2>Customer Dashboard</h2>
-        <div className="admin-dashboard">
+        <div className="customer-dashboard">
             
             <div>
                 <Link to="/editprofile" className='link'>

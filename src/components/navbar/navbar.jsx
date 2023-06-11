@@ -13,7 +13,14 @@ const Navbar = () => {
         </div>
         <div className="navbar-right">
           <ul className="nav-links">
-            <li className="nav-item">Dashboard</li>
+            <li className="nav-item">
+              <Link className="nav-item" aria-current="page" to="/customerdashboard">
+              <button type="button" className="btn btn-primary">Customer</button>
+              </Link></li>
+              <li className="nav-item">
+              <Link className="nav-item" aria-current="page" to="/admindashboard">
+              <button type="button" className="btn btn-primary">Admin</button>
+              </Link></li>
             <li className="nav-item">Manage</li>
             {/* <li className="nav-item" aria-current="page" to="/login"><button>Login</button></li> */}
             {/* <NavLink to="/login" className="login-button">Login/SignUp</NavLink> */}
